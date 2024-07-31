@@ -3,9 +3,10 @@
 </script>
 
 <template>
-dgdsgsd
+.
 </template>
 
 <style scoped>
 
 </style>
+

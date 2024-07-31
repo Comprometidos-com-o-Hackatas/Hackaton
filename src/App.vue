@@ -1,16 +1,11 @@
 <script setup>
-import HeaderComponent from './components/HeaderComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
-const route = new useRoute()
+import Header from './components/homeComps/HeaderComps.vue'
 
-const showSection = computed(() => route.name)
 </script>
 
 <template>
- 
-  <HeaderComponent />
-  <router-view/>
-  <FooterComponent/>
+
+<Header/>
+
 </template>
+

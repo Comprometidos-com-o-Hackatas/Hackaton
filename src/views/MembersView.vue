@@ -1,14 +1,7 @@
 <script setup>
-import MembersCard from '@/components/MembersCard.vue';
-import { members} from '@/utils/membersInfo';
 
 </script>
 
 <template>
-    <main class="main-members" >
-    <div class="container-mbm" >
-    <MembersCard v-for="(item, index) in members" :key="index" :image="item.image" :name="item.name" :info_project="item.amountPr" :languages="item.languages" />
-    </div>
-    </main>
-   
+
 </template>
